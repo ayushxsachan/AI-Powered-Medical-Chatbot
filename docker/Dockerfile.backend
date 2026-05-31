@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /app
+
+COPY backend/requirements.txt /app/backend/requirements.txt
+RUN pip install --upgrade pip \
+    && pip install -r /app/backend/requirements.txt
+
+COPY backend/alembic.ini /app/alembic.ini
+COPY backend/pytest.ini /app/pytest.ini
+COPY backend/migrations /app/migrations
+COPY backend/app /app/app
+COPY backend/tests /app/tests
+COPY data /app/data
+
+EXPOSE 8000
