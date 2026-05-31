@@ -1,0 +1,11 @@
+{
+  "status": "indexed",
+  "fingerprint": "dc4d3e45688ce3c50d9f1e87c512cb4907872fe4a15a6f203d68dafc8fbbd780",
+  "chunks_indexed": 41,
+  "counts": {
+    "disease": 10,
+    "medication": 10,
+    "nutrition": 5,
+    "guidelines": 16
+  }
+}
