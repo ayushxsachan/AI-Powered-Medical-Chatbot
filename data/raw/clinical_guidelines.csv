@@ -1,0 +1,5 @@
+topic,guidance,review_status
+Medication reconciliation,"At each care transition, compare the patient's medication list with current orders and reported use to identify omissions, duplications, dosing errors, and interactions.",curated
+Red flag headache,"Sudden severe headache, neurologic deficit, fever with neck stiffness, head trauma, pregnancy/postpartum state, cancer history, or immunosuppression warrants urgent clinical evaluation.",curated
+Diabetes self-monitoring,"Glucose monitoring plans should be individualized by therapy type, hypoglycemia risk, and treatment goals.",curated
+Hypertension measurement,"Blood pressure interpretation should use validated devices, proper cuff size, seated rest, and repeated measurements when possible.",curated

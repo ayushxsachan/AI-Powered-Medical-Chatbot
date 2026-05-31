@@ -1,0 +1,6 @@
+drug_a,drug_b,interaction,severity
+Warfarin,Aspirin,"increased bleeding risk due to additive anticoagulant and antiplatelet effects",high
+Lisinopril,Potassium supplement,"increased risk of hyperkalemia",moderate
+Metformin,Iodinated contrast,"temporary kidney stress may increase risk of lactic acidosis in susceptible patients",moderate
+Ibuprofen,Lisinopril,"nonsteroidal anti-inflammatory drugs may reduce antihypertensive effect and affect kidney function",moderate
+Albuterol,Caffeine,"may increase jitteriness or palpitations in sensitive individuals",low
