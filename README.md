@@ -1,4 +1,4 @@
-# Production Medical AI Assistant Platform
+# AI-Powered-Medical-Chatbot
 
 This repository contains a Dockerized healthcare AI platform with a Streamlit frontend, FastAPI backend, PostgreSQL persistence, Redis caching and queues, Celery workers, Qdrant vector search, LangGraph/LangChain orchestration, universal health memory, thread memory, document ingestion, and medical dataset indexing.
 
